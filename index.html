@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/null.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>ДЗ№17 Адаптив</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container body-header">
+				<div class="body-header__top top-body-header">
+					<div class="top-body-header__logo logo-block">
+						<a href="#"><img class="logo-block__logo" src="img/logoheader/logo.svg" alt="logo"></a>
+						<div class="logo-block__text">logoipsum</div>
+					</div>
+					<div class="top-body-header__contacts contacts-block">
+						<div class="contacts-block__time block-contacts">
+							<div class="block-contacts__title">BOARDING HOURS</div>
+							<div class="block-contacts__subtitle">Mon - Sat: 7:00 am - 6:00 pm</div>
+						</div>
+						<div class="contacts-block__phone block-contacts">
+							<div class="block-contacts__title">CALL US</div>
+							<div class="block-contacts__subtitle">(555) Pup-Cares</div>
+						</div>
+						<a href="#" class="contacts-block__button">Make an Appointment</a>
+					</div>
+				</div>
+				<div class="body-header__bottom bottom-body-header">
+					<div class="bottom-body-header__nav nav-header">
+						<ul class="nav-header__items">
+							<li class="nav-header__item hidden-menu"><a href="#" class="nav-header__link">Services</a>
+								<img src="img/logoheader/arrow-more.svg" class="more-arrow more-arrow_ml" alt="arrow-more">
+								<ul class="nav-header__subitems">
+									<li class="nav-header__subitem"><a href="#" class="hidden-link">Pet Daycare</a></li>
+									<li class="nav-header__subitem"><a href="#" class="hidden-link">Custom Meal Plans</a></li>
+									<li class="nav-header__subitem"><a href="#" class="hidden-link">Pet Training</a></li>
+									<li class="nav-header__subitem"><a href="#" class="hidden-link">Shop Our Store!</a></li>
+									<li class="nav-header__subitem"><a href="#" class="hidden-link">Pet Day Spa & Grooming</a>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-header__item"><a href="#" class="nav-header__link">Specials</a></li>
+							<li class="nav-header__item"><a href="#" class="nav-header__link">Facilities</a></li>
+							<li class="nav-header__item"><a href="#" class="nav-header__link">Reviews</a></li>
+							<li class="nav-header__item hidden-menu"><a href="#" class="nav-header__link">Shop</a>
+								<img src="img/logoheader/arrow-more.svg" class="more-arrow more-arrow_ml" alt="arrow-more">
+								<ul class="nav-header__subitems">
+									<li class="nav-header__subitem"><a href="#" class="hidden-link">Pet Daycare</a></li>
+									<li class="nav-header__subitem"><a href="#" class="hidden-link">Custom Meal Plans</a></li>
+									<li class="nav-header__subitem"><a href="#" class="hidden-link">Pet Training</a></li>
+									<li class="nav-header__subitem"><a href="#" class="hidden-link">Shop Our Store!</a></li>
+									<li class="nav-header__subitem"><a href="#" class="hidden-link">Pet Day Spa & Grooming</a>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-header__item"><a href="#" class="nav-header__link">About</a></li>
+						</ul>
+					</div>
+					<div class="bottom-body-header__search search-header">
+						<div class="search-header__input input-header">
+							<input type="text" id="input-header" class="input-header">
+							<label for="input-header">
+							</label>
+						</div>
+						<div class="search-header__basket basket">
+							<a href="#" class="basket__item">
+								<img src="img/logoheader/logo-shopping.svg" class="basket__link" alt="basket">
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- search-fields -->
+				<div class="search-field">
+					<div class="search-field__item">
+						<label class="search-field__label" for="search-field__input">
+							<img src="img/logoheader/logo-search.svg" alt="logo-search" class="search-field__icon">
+						</label>
+						<input type="text" class="search-field__input" id="search-field__input" placeholder="Search"
+							autocomplete="off" name="search">
+						<a href="#" class="search-field__basket"><img src="img/logoheader/logo-shopping.svg"
+								class="search-field__icon" alt="basket"></a>
+					</div>
+				</div>
+				<!-- burger-menu -->
+				<div class="burger-menu">
+					<input id="burger-menu__toggle" type="checkbox">
+					<label class="burger-menu__btn" for="burger-menu__toggle">
+						<span></span>
+					</label>
+					<ul class="burger-menu__list">
+						<li>
+							<div class="logo-block__text">logoipsum</div>
+						</li>
+						<li><a href="#" class="burger-menu__item hidden-menu-burger">Services</a>
+							<!--<ul class="burger-menu__subitems">
+								<li class="burger-menu__subitem"><a href="#" class="burger-menu__sublink"></a></li>
+								<li class="burger-menu__subitem"><a href="#" class="burger-menu__sublink"></a></li>
+								<li class="burger-menu__subitem"><a href="#" class="burger-menu__sublink"></a></li>
+								<li class="burger-menu__subitem"><a href="#" class="burger-menu__sublink"></a></li>
+								<li class="burger-menu__subitem"><a href="#" class="burger-menu__sublink"></a></li>
+							</ul>-->
+						</li>
+						<li><a href="#" class="burger-menu__item">Specials</a></li>
+						<li><a href="#" class="burger-menu__item">Facilities</a></li>
+						<li><a href="#" class="burger-menu__item">Reviews</a></li>
+						<li><a href="#" class="burger-menu__item hidden-menu-burger">Shop</a>
+							<!--<ul class="burger-menu__subitems">
+								<li class="burger-menu__subitem"><a href="#" class="burger-menu__sublink"></a></li>
+								<li class="burger-menu__subitem"><a href="#" class="burger-menu__sublink"></a></li>
+								<li class="burger-menu__subitem"><a href="#" class="burger-menu__sublink"></a></li>
+								<li class="burger-menu__subitem"><a href="#" class="burger-menu__sublink"></a></li>
+								<li class="burger-menu__subitem"><a href="#" class="burger-menu__sublink"></a></li>
+							</ul>-->
+						</li>
+						<li><a href="#" class="burger-menu__item">About</a></li>
+						<li>
+							<div class="burger-menu-contacts burger-menu-contacts_mt">
+								<div class="contacts-block-burger-time">
+									<div class="contacts-block-burger__title">BOARDING HOURS</div>
+									<div class="contacts-block-burger__subtitle">Mon - Sat: 7:00 am - 6:00 pm</div>
+								</div>
+								<a href="#" class="contacts-block-burger-phone">
+									<div class="contacts-block-burger__title">CALL US</div>
+									<div class="contacts-block-burger__subtitle">(555) Pup-Cares</div>
+								</a>
+							</div>
+						</li>
+						<li><a href="#" class="burger-button">Make an Appointment</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<!-- premier -->
+			<div class="premier">
+				<div class="premier__container">
+					<div class="premier__title premier__title_mb">Premier dog boarding, daycare & day spa</div>
+					<div class="button">
+						<a href="#" class="button__link">Make an Appointment</a>
+					</div>
+				</div>
+			</div>
+			<!-- Who we are -->
+			<div class="who-we-are">
+				<div class="who-we-are__container">
+					<img src="img/whoweare/circles.svg" alt="circles" class="who-we-are__decor">
+					<div class="who-we-are__header header-block">
+						<div class="header-block__subtitle">Who we are</div>
+						<div class="header-block__title">Nemo enim ipsam voluptatem quia voluptas in proident</div>
+					</div>
+					<div class="who-we-are__text">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+						suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum iure reprehenderit
+						qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
+						voluptas nulla pariatur.</div>
+					<div class="who-we-are__picture">
+						<img src="img/whoweare/whoweare-dog.jpg" alt="picture" class="who-we-are__image">
+						<div class="who-we-are__blob">
+							<img src="img/whoweare/whoweare-blob.png" alt="blob">
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- ball -->
+			<div class="ball">
+				<div class="ball__wrapper">
+					<div class="ball__dog">
+						<div class="dog-bg">
+							<img src="img/appointment/appointment-dog.png" class="dog-img" alt="#">
+						</div>
+					</div>
+					<div class="ball__vector info-block">
+						<div class="info-block__wrapper">
+							<div class="info-block__title">Nemo enim ipsam voluptatem quia voluptas in	proident</div>
+							<div class="button button-ball">
+								<a href="#" class="button__link">Make an Appointment</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer"></footer>
+	</div>
+</body>
+
+</html>
